@@ -1,0 +1,1743 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* Cv side start */
+.section_cv {
+
+  background-color: #000;
+
+  /* Full height */
+  width: 100%;
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_cv h1 {
+  width: 200px;
+  top: 80px;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+.section_cv h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: left;
+  color: #FFF;
+  padding-top: 3%;
+  padding-left: 11%;
+  
+  
+}
+
+.section_cv p {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: left;
+  color: #FFF;
+  padding-left: 11%;
+  padding-top: 1%;
+}
+
+/* Cv side slut */
+
+
+
+
+.section_secret {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section_secret header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.section_secret .content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.secret_img {
+  width: 350px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.section_secret h1 {
+  width: 200px;
+  top: 80px;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+.section_secret h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #FFF;
+  padding-top: 8px;
+}
+
+.section_secret p {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #FFF;
+  margin: 0;
+}
+
+.section_secret .hearth a img {
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.section_secret .hearth a:hover img {
+  content: url('images/hearth_red.webp'); /* Replace with the image you want on hover */
+}
+
+/* Section Secret side slut */
+
+
+
+
+
+
+.section {
+
+  background-image: url("images/philip_hero.webp");
+
+  /* Full height */
+  width: 100%;
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section .video {
+  position: relative;
+}
+
+.section .video {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  object-fit: cover;
+  z-index: -1;  
+}
+
+.section h1 {
+  width: 200px;
+  top: 80px;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+.section h2 {
+  width: 90%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+}
+
+.section p {
+  width: 30%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: center;
+  color: #FFF;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+
+}
+
+.section h3 {
+  width: 45%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 900;
+  font-size: 5em;
+  text-align: left;
+  color: #FFF;
+  top: 53%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+
+}
+
+
+header {
+  width: 100%;
+  height: 90px;
+  padding-bottom: 10%;
+}
+  
+  header ul {
+  list-style: none;
+  overflow: hidden;
+  z-index: 1;
+  padding-right: 8%;
+  }
+  
+  header li a {
+  font-family: 'Lexend', sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  text-align: right;
+
+  
+}
+
+  header li a:hover {
+    color: #CCCCCC;
+    }
+  
+
+  header h1 {
+  width: 185px;
+  top: 70px;
+  left: 150px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  }
+
+  
+  /* menu */
+  
+  header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  header .menu-icon {
+  padding-top: 68px;
+  padding-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  position: relative;
+  user-select: none;
+  
+  
+  }
+  
+  header .menu-icon .navicon {
+  background: #FFF;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  }
+  
+  header .menu-icon .navicon:before,
+  header .menu-icon .navicon:after {
+  background: #FFF;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+  }
+  
+  header .menu-icon .navicon:before {
+  top: 5px;
+  }
+  
+  header .menu-icon .navicon:after {
+  top: -5px;
+  }
+  
+  /* menu btn */
+  
+  header .menu-btn {
+  display: none;
+  }
+  
+  header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+  }
+  
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+  }
+  
+  /* 61.25 = 980px */
+  
+  @media (min-width: 61.25em) {
+    header li {
+    padding-right: 30px;
+    padding-top: 1%;
+    float: left;
+  }
+
+  header li a {
+    text-align: right;
+    padding-top: 60px;
+  }
+
+  header li a:hover {
+    color: #CCCCCC;
+  transform: scale(1.01);
+  }
+
+  header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
+  
+  }
+
+  
+  /* 61.25 = 980px */
+  
+  @media (min-width: 61.25em) {
+    header li {
+    padding-right: 45px;
+    padding-top: 1%;
+    float: left;
+  }
+
+  header li a {
+    text-align: right;
+    padding-top: 66px;
+  }
+
+  header li a:hover {
+  color: #B21F34;
+  transform: scale(1.01);
+  }
+
+  header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
+  
+  }
+
+#mouse-scroll {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 65%;
+  -webkit-transform: translateX(-50%);
+  z-index: 9999;
+}
+#mouse-scroll span{
+  display: block;
+  width: 7px; 
+  height: 7px;
+  -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+       transform: rotate(45deg);
+       transform: rotate(45deg);
+  border-right: 2px solid #FFF; 
+  border-bottom: 2px solid #FFF;
+  margin: 0 0 1px 1px;
+}
+
+#mouse-scroll .down-arrow-1 {
+  margin-top: 10px;
+}
+#mouse-scroll .down-arrow-1, #mouse-scroll .down-arrow-2, #mouse-scroll .down-arrow-3 {
+  -webkit-animation: mouse-scroll 1s infinite; 
+    -moz-animation: mouse-scroll 1s infinite;
+}
+#mouse-croll .down-arrow-1 {
+   -webkit-animation-delay: .1s; 
+   -moz-animation-delay: .1s;
+   -webkit-animation-direction: alternate;
+}
+#mouse-scroll .down-arrow-2 {
+  -webkit-animation-delay: .2s; 
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+}
+#mouse-scroll .down-arrow-3 {
+   -webkit-animation-delay: .3s;
+   -moz-animation-dekay: .3s;
+   -webkit-animation-direction: alternate;
+}
+
+#mouse-scroll .mouse-in {
+ -webkit-animation: animated-mouse 1.2s ease infinite;
+}
+
+@-webkit-keyframes animated-mouse {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+     opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  } 
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.about h1 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  margin: 0;
+}
+
+.about h2 {
+  width: 100%;
+  font-family: "Lexend", sans-serif;
+  font-size: 2.1em;
+  text-align: left;
+  padding-bottom: 3%;
+  color: #000;;
+}
+
+.about img {
+  width: 35%;
+  border-radius: 5px;
+  margin-right: 35px;
+  transition: transform 0.3s ease;
+}
+
+.about .text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.about p {
+  font-family: "Lexend", sans-serif;
+  font-size: 0.9em;
+  text-align: left;
+  color: #000;
+}
+
+.about .cv-button {
+  width: 23%;
+  font-family: "Lexend", sans-serif;
+  margin-top: 3%;
+  padding: 8px 5px;
+  font-size: 0.7em;
+  color: #FFF;
+  text-align: center;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about .cv-button:hover {
+  color: #B21F34;
+}
+
+
+
+.about .cv-button:hover {
+  background-color: #000;
+}
+
+
+
+.education {
+  background-image: url("images/stormp.webp");
+
+  /* Full height */
+  width: 100%;
+  height: 70vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.education h1 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.education p {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #fff;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.portfolio {
+  width: 100%;
+  min-height: 100vh; /* Use min-height to ensure it takes the full height */
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative; /* Ensure child elements can be positioned relative to this container */
+}
+
+.portfolio h1 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  top: 6%; /* Adjust top position as needed */
+  left: 3%; /* Adjust left position as needed */
+  margin: 0;
+}
+
+.portfolio .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 60px; /* Add margin-top to create space below the h1 */
+}
+
+.portfolio .box {
+  flex: 1 1 calc(25% - 20px); /* Two boxes per row */
+  max-width: calc(25% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.portfolio .box img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .box img:hover {
+  transform: scale(1.04);
+}
+
+.portfolio .box p {
+  font-family: "Lexend", sans-serif;
+  font-size: 0.9em;
+  color: #000;
+  text-align: center;
+}
+
+.portfolio .portfolio-button {
+  font-family: "Lexend", sans-serif;
+  margin-top: 10px;
+  padding: 8px 10px;
+  font-size: 0.7em;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio .portfolio-button:hover {
+  background-color: #B21F34;
+}
+
+.video {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  object-fit: cover;
+  z-index: -1;  
+}
+
+.video h1 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 90px;
+  text-align: left;
+  color: #FFF;
+  position: absolute;
+  top: 60%;
+  left: 300px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.contact {
+
+  background-image: url("images/contact.webp");
+
+  /* Full height */
+  width: 100%;
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact h1 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+  top: 6%; /* Adjust top position as needed */
+  left: 4%; /* Adjust left position as needed */
+  margin: 0;
+}
+
+.contact p {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: block;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .hearth {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px; /* Placerer den i højre side med lidt afstand fra kanten */
+  top: 50%; /* Vertikalt centreret */
+  transform: translateY(-50%);
+}
+
+.footer .row {
+  width: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Sørger for, at ikonerne er centreret vandret */
+  align-items: center; /* Vertikalt centreret */
+}
+
+.footer p {
+  font-family: 'Lexend', sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  margin-top: 2px; /* Lidt afstand fra ikonerne */
+}
+
+.footer .column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.footer .column img {
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.footer .column img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/* web.html / CSS */
+
+.section_web {
+
+  background-color: #000;
+
+  /* Full height */
+  width: 100%;
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_web h1 {
+  width: 180px;
+  top: 12%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.section_web h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 2%;
+  left: 50%
+
+}
+
+.section_web h3 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: left;
+  color: #FFF;
+  padding-left: 10%;
+
+}
+
+.section_web p {
+  width: 65%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: left;
+  color: #FFF;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.section_web .col img {
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+
+.section_web .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 50px;
+}
+
+.section_web .project-button {
+  font-family: "Lexend", sans-serif;
+  margin-top: 5%;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  color: #000;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section_web .project-button:hover {
+  background-color: #B21F34;
+}
+
+
+
+
+/* uxui.html / CSS */
+
+.section_uxui {
+
+  background-color: #000;
+
+  /* Full height */
+  width: 100%;
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_uxui h1 {
+  width: 180px;
+  top: 12%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.section_uxui h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 2%;
+  left: 50%
+
+}
+
+.section_uxui h3 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: left;
+  color: #FFF;
+  padding-left: 10%;
+
+}
+
+.section_uxui p {
+  width: 65%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: left;
+  color: #FFF;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.section_uxui .col img {
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+
+.section_uxui .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 50px;
+}
+
+.section_uxui .project-button {
+  font-family: "Lexend", sans-serif;
+  margin-top: 5%;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  color: #000;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section_uxui .project-button:hover {
+  background-color: #B21F34;
+}
+
+
+/* animation.html / CSS */
+
+.section_animation {
+
+  background-color: #000;
+
+  /* Full height */
+  width: 100%;
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_animation h1 {
+  width: 180px;
+  top: 12%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.section_animation h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 2%;
+  left: 50%
+
+}
+
+.section_animation h3 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: left;
+  color: #FFF;
+  padding-left: 10%;
+
+}
+
+.section_animation p {
+  width: 65%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: left;
+  color: #FFF;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.section_animation .col img {
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+
+.section_animation .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 50px;
+}
+
+.section_animation .project-button {
+  font-family: "Lexend", sans-serif;
+  margin-top: 5%;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  color: #000;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section_animation .project-button:hover {
+  background-color: #B21F34;
+}
+
+
+
+/* indhold.html / CSS */
+
+.section_indhold {
+
+  background-color: #000;
+
+  /* Full height */
+  width: 100%;
+  height: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_indhold h1 {
+  width: 180px;
+  top: 12%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.section_indhold h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 2%;
+  left: 50%
+
+}
+
+.section_indhold h3 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: left;
+  color: #FFF;
+  padding-left: 10%;
+
+}
+
+.section_indhold p {
+  width: 65%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: left;
+  color: #FFF;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.section_indhold .col img {
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 40%;
+  border-radius: 5px;
+}
+
+.section_indhold .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 50px;
+}
+
+.section_indhold .project-button {
+  font-family: "Lexend", sans-serif;
+  margin-top: 5%;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  color: #000;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section_indhold .project-button:hover {
+  background-color: #B21F34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dette er mobile css */
+@media only screen and (max-width: 768px) {
+
+  header {
+    width: 100%;
+    height: 90px;
+    padding-bottom: 25%;
+  }
+
+
+/* sektion_cv start */
+  .section_cv h2 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-align: left;
+    color: #FFF;
+    padding-top: 4%;
+    
+    
+  }
+  
+  .section_cv p {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: left;
+    color: #FFF;
+    padding-top: 2.5%;
+  }
+
+
+  .section_cv h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* sektion_cv slut */
+
+  .section_secret h1 {
+    width: 180px;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section h2 {
+    width: 80%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+  }
+
+  .section p {
+    width: 72%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    color: #FFF;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+  
+  }
+
+  .about {
+    width: 100%;
+    height: 130vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about h1 {
+    padding-left: 5%;
+  }
+
+  .about h2 {
+    width: 100%;
+    font-family: "Lexend", sans-serif;
+    font-size: 2.1em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: #000;
+  }
+  
+  .about img {
+    width: 60%;
+    border-radius: 5px;
+    margin-left: 7%;
+    transition: transform 0.3s ease;
+  }
+
+  .about .text-container {
+    max-width: 70%; /* Ændr dette efter behov */
+    align-items: center;
+    text-align: center;
+  }
+
+  .about p {
+    width: 85%;
+    font-family: "Lexend", sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: #000;
+    padding-bottom: 10px;
+  }
+
+  .about .about-button {
+    font-family: "Lexend", sans-serif;
+    margin-top: 30%;
+    padding: 8px 10px;
+    font-size: 0.7em;
+    color: #fff;
+    background-color: #0000ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  
+
+  header .menu-icon {
+    padding-top: 100px;
+    padding-left: 90%;
+    cursor: pointer;
+    position: relative;
+  }
+
+
+  .education h1 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .portfolio {
+    background-color: #FFF;
+  
+    /* Full height */
+    width: 100%;
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .portfolio .box {
+    flex: 1 1 calc(50% - 20px); /* Two boxes per row */
+    max-width: calc(50% - 20px);
+  }
+
+  .portfolio .box img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio .box p {
+    font-family: "Lexend", sans-serif;
+    font-size: 0.7em;
+    color: #000;
+    text-align: center;
+  }
+
+  .portfolio .download-button {
+    font-family: "Lexend", sans-serif;
+    margin-top: 5%;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  .portfolio h1 {
+    padding-left: 5%;
+  }
+
+  .contact h1 {
+    padding-left: 5%;
+  }
+
+  .contact p {
+    font-size: 1.5em;
+    color: #FFF;
+    padding-right: 60%;
+
+  }
+
+  .contact a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .video h1 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 50px;
+    text-align: left;
+    color: #FFF;
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .section_web .col img {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  }
+  
+  .section_web .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  }
+
+  .section_web h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section_web h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 5%;
+  
+  }
+  
+  .section_web h3 {
+  width: 90%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  color: #FFF;
+  
+  }
+  
+
+  .section_web p {
+    width: 85%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    color: #FFF;
+    padding-top: 1%;
+    padding-left: 15%;
+  }
+
+.section_web .project-button {
+    margin-top: 3%; /* Adjust spacing as needed */
+}
+
+
+
+.section_uxui .col img {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  }
+  
+  .section_uxui .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  }
+
+  .section_uxui h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section_uxui h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 5%;
+  
+  }
+  
+  .section_uxui h3 {
+  width: 90%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 1%;
+  
+  }
+  
+
+  .section_uxui p {
+    width: 85%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    color: #FFF;
+    padding-top: 1%;
+    padding-left: 15%;
+  }
+
+.section_uxui .project-button {
+    margin-top: 3%; /* Adjust spacing as needed */
+}
+
+
+.section_animation .col img {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  }
+  
+.section_animation .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  }
+
+.section_animation h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+.section_animation h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 5%;
+  
+  }
+  
+.section_animation h3 {
+  width: 90%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  color: #FFF;
+  
+  }
+  
+
+.section_animation p {
+    width: 85%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    color: #FFF;
+    padding-top: 1%;
+    padding-left: 15%;
+  }
+
+.section_animation .project-button {
+    margin-top: 3%; /* Adjust spacing as needed */
+}
+
+
+
+
+
+.section_indhold .col img {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  }
+  
+.section_indhold .grid_1-1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  }
+
+.section_indhold h1 {
+    width: 180px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+
+.section_indhold h2 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #FFF;
+  padding-top: 5%;
+  
+  }
+  
+.section_indhold h3 {
+  width: 90%;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  color: #FFF;
+  
+  }
+  
+
+.section_indhold p {
+    width: 85%;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    color: #FFF;
+    padding-top: 1%;
+    padding-left: 15%;
+  }
+
+.section_indhold .project-button {
+    margin-top: 3%; /* Adjust spacing as needed */
+}
+}
+
